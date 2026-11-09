@@ -8,8 +8,6 @@
     --color-purple: #927B91;
     --color-light-purple: #F7F2F7;
     --color-pink: #EE69A4;
-    --color-orange: #EF9546;
-    --color-purple-gradient: linear-gradient(#512051, #8A4389);
 
     /*spacing*/
     --spacing-0: -.1rem;
@@ -153,7 +151,7 @@ blockquote p::after {
 
     .rating {
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 1fr;
         align-items: center;
         padding: var(--spacing-200);
     }
@@ -201,7 +199,13 @@ blockquote p::after {
 
     .rating {
         gap: var(--spacing-100);
+        width: 350px;
     }
+
+    .rating p {
+    justify-self: left;
+    white-space: nowrap; /* CRITICAL: Forces the text to stay on one single line */
+}
 
     .rating:nth-child(1) {
         align-self: flex-start;
@@ -218,7 +222,7 @@ blockquote p::after {
     .reviews {
         display: flex;
         align-items: flex-start; /* Instantly stops items from trying to stretch vertically */
-        height: 300px;           /* Gives a clean, steady track runway for the stagger */  
+        height: 350px;           /* Gives a clean, steady track runway for the stagger */  
         margin-top: var(--spacing-600);
     }
 
