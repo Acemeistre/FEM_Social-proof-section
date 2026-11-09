@@ -170,6 +170,12 @@ blockquote p::after {
         align-items: center;
         min-height: 100vh;
         padding: 0 var(--spacing-1200);
+            background-image:
+        url("./images/bg-pattern-top-desktop.svg"),
+        url("./images/bg-pattern-bottom-desktop.svg");
+    background-position: left top, right bottom;
+    background-size: auto, auto;
+    background-repeat: no-repeat, no-repeat;
     }
 
     .top {
