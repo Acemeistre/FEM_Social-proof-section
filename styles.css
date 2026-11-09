@@ -163,3 +163,52 @@ blockquote p::after {
         justify-self: left;
     }
 }
+
+@media (min-width: 1024px) {
+    body {
+        display: flex;
+        align-items: center;
+        min-height: 100vh;
+        padding: 0 var(--spacing-1200);
+    }
+
+    .top {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .intro {
+        padding-right: var(--spacing-1200);
+    }
+    .banner-header {
+        margin: 0 0 1rem;
+        text-align: start;
+    }
+    .banner-text {
+        text-align: start;
+    }
+    .rating {
+        gap: var(--spacing-100);
+    }
+
+    .rating:nth-child(1) {
+        align-self: flex-start;
+    }
+    .rating:nth-child(2) {
+        align-self: center;
+    }
+    .rating:nth-child(3) {
+        align-self: flex-end;
+    }
+    .reviews {
+        display: flex;
+    }
+    .review:nth-child(1) {
+        align-self: flex-start;
+    }
+    .review:nth-child(2) {
+        align-self: center;
+    }
+    .review:nth-child(3) {
+        align-self: flex-end;
+    }
+}
