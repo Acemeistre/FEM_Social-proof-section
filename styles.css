@@ -47,6 +47,7 @@ body {
     color: var(--color-purple);
     line-height: var(--spacing-300);
     padding: 0 var(--spacing-400);
+    font-weight: 500;
 }
 
 .ratings {
