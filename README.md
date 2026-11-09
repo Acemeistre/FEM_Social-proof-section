@@ -11,6 +11,9 @@ This is a solution to the [social proof section challenge on Frontend Mentor](ht
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+    - [Achievements](#achievements)
+    - [Challenges](#challenges)
+    - [Continued development](#continued-development)
   - [AI Collaboration](#ai-collaboration)
 
 ## Overview
@@ -57,7 +60,6 @@ Users should be able to:
 
 - Flex-box still poses its challenges in both row and column flex's 
     - when to use text-justify/align, justify/align-content, etc.
-- Practise linking background image URLs correctly, since the path is relative to the CSS file, not the HTML.
 
 ## AI Collaboration
 
