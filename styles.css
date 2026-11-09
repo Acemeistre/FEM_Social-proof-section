@@ -12,6 +12,7 @@
     --color-purple-gradient: linear-gradient(#512051, #8A4389);
 
     /*spacing*/
+    --spacing-0: -.1rem;
     --spacing-100: .5rem;
     --spacing-200: 1rem;
     --spacing-300: 1.5rem;
@@ -37,7 +38,8 @@ body {
 .banner-header {
     color: var(--color-dark-purple);
     padding: 0 var(--spacing-400);
-    margin: var(--spacing-400);
+    margin: var(--spacing-600) var(--spacing-200) var(--spacing-200);
+    letter-spacing: var(--spacing-0);
 }
 
 .banner-text {
@@ -45,3 +47,4 @@ body {
     line-height: var(--spacing-300);
     padding: 0 var(--spacing-400);
 }
+
