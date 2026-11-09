@@ -127,11 +127,11 @@ body {
 }
 
 .status {
-    color: var(--color-pink)
+    color: var(--color-pink);
 }
 
 blockquote p {
-    line-height: var(--spacing-300)
+    line-height: var(--spacing-300);
 }
 
 blockquote p::before {
