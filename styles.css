@@ -19,3 +19,29 @@
     --spacing-600: 3rem;
     --spacing-1200: 6rem;
 }
+
+h1, h2, h3, p, ul, figure, blockquote {
+  margin: 0;
+}
+
+body {
+    font-family: "League Spartan", Sans-serif;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.banner-header {
+    color: var(--color-dark-purple);
+    padding: 0 var(--spacing-400);
+    margin: var(--spacing-400);
+}
+
+.banner-text {
+    color: var(--color-purple);
+    line-height: var(--spacing-300);
+    padding: 0 var(--spacing-400);
+}
