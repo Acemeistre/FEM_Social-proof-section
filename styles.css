@@ -27,6 +27,14 @@ h1, h2, h3, p, ul, figure, blockquote {
 
 body {
     font-family: "League Spartan", Sans-serif;
+    display: flex;
+    min-height: 100vh;
+    background-image:
+    url("./images/bg-pattern-top-mobile.svg"),
+    url("./images/bg-pattern-bottom-mobile.svg");
+    background-position: left top, right bottom;
+    background-size: auto, auto;
+    background-repeat: no-repeat, no-repeat;
 }
 
 .intro {
