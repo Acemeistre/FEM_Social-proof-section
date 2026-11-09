@@ -121,3 +121,13 @@ body {
 blockquote p {
     line-height: var(--spacing-300)
 }
+
+blockquote p::before {
+    content: "\201C";
+    padding-right: .25rem;
+}
+
+blockquote p::after {
+    content: "\201D";
+    padding-left: .25rem;
+}
