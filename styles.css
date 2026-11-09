@@ -33,6 +33,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-bottom: var(--spacing-200);
 }
 
 .banner-header {
@@ -48,3 +49,31 @@ body {
     padding: 0 var(--spacing-400);
 }
 
+.ratings {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.rating {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    background: var(--color-light-purple);
+    margin: var(--spacing-100);
+    padding: var(--spacing-200);
+    border-radius: var(--spacing-100)
+}
+
+.rating img {
+    width: var(--spacing-200);
+    height: auto;
+    align-self: center;
+    margin-bottom: var(--spacing-200)
+}
+
+.rating-info {
+    color: var(--color-dark-purple);
+    font-weight: 700;
+}
